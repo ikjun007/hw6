@@ -107,8 +107,8 @@ window.addEventListener('DOMContentLoaded', async function(event) {
   for (let i = 0; i < movieList.length; i++) {
     let movieData = movieList[i].data()
     let movieName = movieData.movie
-    console.log(movieData); // array holding text - L1
-    console.log(movieName); // actual text - L0
+    console.log(movieData); 
+    console.log(movieName); 
   }
 
 
